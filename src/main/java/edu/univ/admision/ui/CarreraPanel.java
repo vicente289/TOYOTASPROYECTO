@@ -10,7 +10,7 @@ import java.awt.*;
 import java.util.List;
 
 public class CarreraPanel extends JPanel {
-    private final JTextField tfEmail = new JTextField();
+    private final JTextField  tfEmail = new JTextField();
     private final JTextField tfCI = new JTextField();
     private final JComboBox<Carrera> cbCarrera = new JComboBox<>();
     private final CarreraService service = new CarreraService();
